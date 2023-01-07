@@ -1,0 +1,164 @@
+/* banner section  */
+
+.banner {
+  background-image: url("../images/banner/banner2.png");
+  width: 1600px;
+  height: 809px;
+  background-repeat: no-repeat;
+  display: flex;
+}
+.banner-container {
+  width: 75%;
+  text-align: right;
+}
+
+.banner-description {
+  padding-left: 950px;
+}
+.banner-title {
+  padding-left: 950px;
+  padding-top: 220px;
+}
+
+.submit-btn {
+  width: 160px;
+  height: 64px;
+  background-color: #f15b22;
+  border-radius: 5px;
+}
+
+.btn-banner {
+  color: #ffffff;
+  padding: 20px 26px;
+}
+
+/* my failture section */
+.my-failture-container {
+  display: flex;
+  gap: 90px;
+  padding: 0 230px;
+}
+
+.failture-section-image {
+  margin-top: 150px;
+}
+
+.failture-section-text {
+  margin-top: 170px;
+  padding: 20px;
+}
+.check {
+  margin-right: 5px;
+}
+
+/* my-plan section  */
+.myplan {
+  margin: 130px 230px;
+}
+.myplan-header {
+  text-align: center;
+}
+
+.my-plan-container {
+  display: flex;
+  gap: 60px;
+}
+
+.myplan .skill {
+  margin-right: 80px;
+}
+
+/* mindsect section */
+
+.mindset {
+  background-image: linear-gradient(
+      90deg,
+      #f15b22 0%,
+      rgba(241, 91, 34, 0) 100%
+    ),
+    url(../images/watch.png);
+  /* background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%); */
+  border-radius: 5px;
+
+  /* margin:130px 230px; */
+  width: 1140px;
+  height: 300px;
+  margin-bottom: 125px;
+  margin: 130px 230px;
+  background-size: cover;
+}
+
+.mindset-title {
+  padding-top: 60px;
+  padding-left: 62px;
+  padding-right: 840px;
+  color: white;
+}
+.call-button {
+  margin-top: 20px;
+  margin-left: 60px;
+  width: 160px;
+  height: 64px;
+}
+
+.call-button-text {
+  padding-top: 20px 30px;
+  text-align: center;
+  color: #f15b22;
+}
+
+/* footer section  */
+footer {
+  background: #151414;
+}
+.contact {
+  display: flex;
+  gap: 330px;
+  padding: 130px 230px;
+  color: #e01616;
+}
+
+.contact .contact-title {
+  font-weight: 700;
+  font-size: 25px;
+  color: #f8f8f8;
+  margin-bottom: 16px;
+}
+.contact-description {
+  color: #ffffff;
+  margin-top: 24px;
+  text-decoration: none;
+}
+
+.contact input {
+  width: 100%;
+  height: 21px;
+  padding: 15px;
+  border-radius: 5px;
+  background-color: #151414;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+
+  /* Dark 07 */
+
+  color: #f3f3f3;
+}
+
+.btn-primary {
+  padding: 18px 35px;
+  height: 64px;
+  border-radius: 5px;
+  color: #ffffff;
+  border: 0;
+}
+.btn-text {
+  font-weight: 600;
+  font-size: 20px;
+  color: #f15b22;
+  padding: 36px 20px;
+}
+
+.contact .link {
+  margin-right: 15px;
+}
